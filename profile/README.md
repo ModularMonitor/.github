@@ -1,4 +1,4 @@
-# 🔥 Modular Monitor Project
+# <span title="Go to main core project">[🔥 Modular Monitor Project](../../../Core)</span>
 
 > [!CAUTION]
 > ## Very important note:
