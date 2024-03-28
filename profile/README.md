@@ -44,6 +44,7 @@ These are the projects:
 Name | Short description | Status
 --|--|--
 **[Core](../../../Core)** | This is the big combined project to make everything easier | N/A
+**[Brain](../../../Brain)** | The brain that integrates all modules and make things work. Includes display, SD card and so on | ▶️
 **[Module_DHT22](../../../Module_DHT22)** | Temperature and Humidity sensor | ▶️
 **[Module_BMP180](../../../Module_BMP180)** | Atmosphere pressure sensor | ❌
 **[Module_LDR](../../../Module_LDR)** | Light sensor | ❌
