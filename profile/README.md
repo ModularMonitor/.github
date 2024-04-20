@@ -23,7 +23,7 @@ First, we have the lowest dependency of them all: libraries, or common headers, 
 They are:
 
 * [TFT library](../../../lib-TFT)
-* [Serial communication](../../../lib-Serial)
+* [Serial/Wire/I2C communication](../../../lib-Serial)
 
 <hr />
 
@@ -45,15 +45,15 @@ Name | Short description | Status
 --|--|--
 **[Core](../../../Core)** | This is the big combined project to make everything easier | N/A
 **[Brain](../../../Brain)** | The brain that integrates all modules and make things work. Includes display, SD card and so on | ▶️
-**[Module_DHT22](../../../Module_DHT22)** | Temperature and Humidity sensor | ▶️
+**[Module_DHT22](../../../Module_DHT22)** | Temperature and Humidity sensor | ✅
+**[Module_MICS6814](../../../Module_MICS6814)** | CO, NH3 and NO2 sensor | ✅
+**[Module_KY038_HW038](../../../Module_KY038_HW038)** | Light and sound sensor | ✅
+Reference only: |  | 
 **[Module_BMP180](../../../Module_BMP180)** | Atmosphere pressure sensor | ❌
-**[Module_LDR](../../../Module_LDR)** | Light sensor | ❌
 **[Module_MHZ19B](../../../Module_MHZ19B)** | CO2 sensor based in infra-red | ❌
 **[Module_CCS811](../../../Module_CCS811)** | Air quality sensor | ❌
 **[Module_SDS011](../../../Module_SDS011)** | Particle sensor | ❌
-**[Module_KY038](../../../Module_KY038)** | Noise/sound sensor (microphone) | ❌
 **[Module_BMI160](../../../Module_BMI160)** | Gyro 6 axis sensor | ❌
-**[MICS-6814](../../../Module_MICS6814)** | Air quality sensor | ❌
 **[Module_BATTERY](../../../Module_BATTERY)** | Own battery reporting sensor | ❌
 
 ###### ✅ = Released; ▶️ = In the works, planned; ❌ = Not ready, not being implemented right now
