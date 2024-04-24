@@ -29,6 +29,7 @@ They are:
 * [Adafruit-BMP085-Library (adapted for easier use)](../../../lib-Adafruit-BMP085-Library)
 * [Adafruit_BusIO (adapted for easier use, dependency of BMP085)](../../../lib-Adafruit_BusIO)
 * [Adafruit_CCS811 (adapted for easier use)](../../../lib-Adafruit_CCS811)
+* [SoftwareSerial (adapted for easier use)](../../../lib-espsoftwareserial)
 
 <hr />
 
