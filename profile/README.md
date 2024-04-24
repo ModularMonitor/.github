@@ -19,11 +19,15 @@ The code should work on ESP32 and/or STM32, it depends on each project
 
 ### Libraries
 
-First, we have the lowest dependency of them all: libraries, or common headers, or common code, or smaller codes, or portions of reusable code, whatever you call it.<br />
+First, we have the lowest dependency of them all: libraries, or common headers, or forked customized libs, or common code, or smaller codes, or portions of reusable code, whatever you call it.<br />
 They are:
 
 * [TFT library](../../../lib-TFT)
 * [Serial/Wire/I2C communication](../../../lib-Serial)
+* [I2Cdevlib (adapted for easier use, dependency of some listed here)](../../../lib-i2cdevlib)
+* [HMC5883L_Simple (adapted for easier use)](../../../lib-HMC5883L_Simple)
+* [Adafruit-BMP085-Library (adapted for easier use)](../../../lib-Adafruit-BMP085-Library)
+* [Adafruit_BusIO (adapted for easier use, dependency of BMP085)](../../../lib-Adafruit_BusIO)
 
 <hr />
 
@@ -39,7 +43,7 @@ Here we have the projects themselves.<br />
 
 <hr />
 
-These are the projects:
+These are the projects (more to come):
 
 Name | Short description | Status
 --|--|--
@@ -47,13 +51,8 @@ Name | Short description | Status
 **[Brain](../../../Brain)** | The brain that integrates all modules and make things work. Includes display, SD card and so on | ▶️
 **[Module_DHT22](../../../Module_DHT22)** | Temperature and Humidity sensor | ✅
 **[Module_MICS6814](../../../Module_MICS6814)** | CO, NH3 and NO2 sensor | ✅
-**[Module_KY038_HW038](../../../Module_KY038_HW038)** | Light and sound sensor | ✅
-Reference only: |  | 
-**[Module_BMP180](../../../Module_BMP180)** | Atmosphere pressure sensor | ❌
-**[Module_MHZ19B](../../../Module_MHZ19B)** | CO2 sensor based in infra-red | ❌
-**[Module_CCS811](../../../Module_CCS811)** | Air quality sensor | ❌
-**[Module_SDS011](../../../Module_SDS011)** | Particle sensor | ❌
-**[Module_BMI160](../../../Module_BMI160)** | Gyro 6 axis sensor | ❌
+**[Module_KY038_HW072](../../../Module_KY038_HW072)** | Light and sound sensor | ✅
+**[Module_GY87](../../../Module_GY87)** | Accelerometer, temperature, pressure, altitude and compass module | ▶️
 **[Module_BATTERY](../../../Module_BATTERY)** | Own battery reporting sensor | ❌
 
 ###### ✅ = Released; ▶️ = In the works, planned; ❌ = Not ready, not being implemented right now
