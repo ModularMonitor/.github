@@ -22,14 +22,17 @@ The code should work on ESP32 and/or STM32, it depends on each project
 First, we have the lowest dependency of them all: libraries, or common headers, or forked customized libs, or common code, or smaller codes, or portions of reusable code, whatever you call it.<br />
 They are:
 
-* [TFT library](../../../lib-TFT)
+##### Homemade (original):
 * [Serial/Wire/I2C communication](../../../lib-Serial)
+##### Adapted / enhanced / external:
+* [TFT library](../../../lib-TFT)
 * [I2Cdevlib (adapted for easier use, dependency of some listed here)](../../../lib-i2cdevlib)
 * [HMC5883L_Simple (adapted for easier use)](../../../lib-HMC5883L_Simple)
 * [Adafruit-BMP085-Library (adapted for easier use)](../../../lib-Adafruit-BMP085-Library)
 * [Adafruit_BusIO (adapted for easier use, dependency of BMP085)](../../../lib-Adafruit_BusIO)
 * [Adafruit_CCS811 (adapted for easier use)](../../../lib-Adafruit_CCS811)
 * [SoftwareSerial (adapted for easier use)](../../../lib-espsoftwareserial)
+* [ESP SDS011 (adapted for easier use)](../../../lib-esp_sds011)
 
 <hr />
 
