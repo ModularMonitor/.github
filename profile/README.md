@@ -56,6 +56,7 @@ Name | Short description | Status
 **[Module_KY038_HW072](../../../Module_KY038_HW072)** | Light and sound sensor | ✅
 **[Module_GY87](../../../Module_GY87)** | Accelerometer, temperature, pressure, altitude and compass sensor | ▶️
 **[Module_CCS811](../../../Module_CCS811)** | Quality of air sensor | ▶️
+**[Module_PMSDS011](../../../Module_PMSDS011)** | Particle meter sensor | ▶️
 **[Module_BATTERY](../../../Module_BATTERY)** | Own battery reporting sensor | ❌
 
 ###### ✅ = Released; ▶️ = In the works, planned; ❌ = Not ready, not being implemented right now
