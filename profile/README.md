@@ -52,7 +52,7 @@ Name | Short description | Status
 **[Module_DHT22](../../../Module_DHT22)** | Temperature and Humidity sensor | ✅
 **[Module_MICS6814](../../../Module_MICS6814)** | CO, NH3 and NO2 sensor | ✅
 **[Module_KY038_HW072](../../../Module_KY038_HW072)** | Light and sound sensor | ✅
-**[Module_GY87](../../../Module_GY87)** | Accelerometer, temperature, pressure, altitude and compass module | ▶️
+**[Module_GY87](../../../Module_GY87)** | Accelerometer, temperature, pressure, altitude and compass sensor | ▶️
 **[Module_BATTERY](../../../Module_BATTERY)** | Own battery reporting sensor | ❌
 
 ###### ✅ = Released; ▶️ = In the works, planned; ❌ = Not ready, not being implemented right now
