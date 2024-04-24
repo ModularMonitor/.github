@@ -33,6 +33,7 @@ They are:
 * [Adafruit_CCS811 (adapted for easier use)](../../../lib-Adafruit_CCS811)
 * [SoftwareSerial (adapted for easier use)](../../../lib-espsoftwareserial)
 * [ESP SDS011 (adapted for easier use)](../../../lib-esp_sds011)
+* [Circular Queue (used by SoftwareSerial and SDS011, adapted from old version of SoftwareSerial)](../../../lib-circular_queue)
 
 <hr />
 
