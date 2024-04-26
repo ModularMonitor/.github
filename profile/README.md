@@ -24,6 +24,7 @@ They are:
 
 ##### Homemade (original):
 * [Serial/Wire/I2C communication](../../../lib-Serial)
+* [Self Threadable](../../../lib-SelfThreadable)
 ##### Adapted / enhanced / external:
 * [TFT library](../../../lib-TFT)
 * [I2Cdevlib (adapted for easier use, dependency of some listed here)](../../../lib-i2cdevlib)
