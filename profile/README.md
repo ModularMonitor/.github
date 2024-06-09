@@ -25,8 +25,11 @@ They are:
 ##### Homemade (original):
 * [Serial/Wire/I2C communication](../../../lib-Serial)
 * [Self Threadable](../../../lib-SelfThreadable)
+* [TCP connection (simple communication to make things work right now)](../../../tool-TCP_connection)
+* [XBM/RGB tool (because XBM converter does things flipped somehow)](../../../tool-RGB_fixer)
 ##### Adapted / enhanced / external:
 * [TFT library](../../../lib-TFT)
+* [TinyGSM (4G)](../../../lib-TinyGSM)
 * [I2Cdevlib (adapted for easier use, dependency of some listed here)](../../../lib-i2cdevlib)
 * [HMC5883L_Simple (adapted for easier use)](../../../lib-HMC5883L_Simple)
 * [Adafruit-BMP085-Library (adapted for easier use)](../../../lib-Adafruit-BMP085-Library)
@@ -35,6 +38,8 @@ They are:
 * [SoftwareSerial (adapted for easier use)](../../../lib-espsoftwareserial)
 * [ESP SDS011 (adapted for easier use)](../../../lib-esp_sds011)
 * [Circular Queue (used by SoftwareSerial and SDS011, adapted from old version of SoftwareSerial)](../../../lib-circular_queue)
+##### Used (completely external)
+* [XBM converter](https://www.online-utility.org/image/convert/to/XBM)
 
 <hr />
 
