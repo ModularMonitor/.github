@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 > ## Very important note:
-> This is a work in progress mega project. Expect major changes in the next several months until the end. Nothing here is guaranteed to work as is for now, so please be patient. Thank you.
+> This project is for our final course work. So, maybe, it'll break over time. There are things that will not be developed or were developed before we ditched them out at the end (like the 4G module stuff).
 
 <hr />
 <br />
@@ -10,8 +10,8 @@
 Welcome to Modular Monitor Github repository!<br />
 We use Github as out main versioning for this project. It is for our "TCC" and will be maintained as long as needed.
 
-The main language is C++ with PlatformIO + VS Code as our IDE.<br />
-The code should work on ESP32 and/or STM32, it depends on each project
+The main language is C++ with Arduino IDE + VS Code as our main editor.<br />
+The code should work on ESP32 out of the box (libraries are all sub modules)
 
 <br />
 
@@ -19,7 +19,7 @@ The code should work on ESP32 and/or STM32, it depends on each project
 
 ### Libraries
 
-First, we have the lowest dependency of them all: libraries, or common headers, or forked customized libs, or common code, or smaller codes, or portions of reusable code, whatever you call it.<br />
+First, we have the lowest dependency of them all: libraries, or common headers, or forked customized libs, or common code, or smaller codes, or portions of reusable code, whatever you call it. Not all of them were used at the end, but they may be used in future projects if needed, I don't know.<br />
 They are:
 
 ##### Homemade (original):
@@ -49,18 +49,17 @@ Here we have the projects themselves.<br />
 
 #### IMPORTANT NOTES:
 
-* All projects implement *<span title="Modules send their own data and other's data if chained too.">Serial echoing</span>*.
 * All projects are developed individually and should be build-able separately. 
-* There is a **[Core project](../../../Core)** that allows for one clone with recursive flag, guaranteeing that every sub-project is up to date or in the same version.
+* There is a **[Core project](../../../Core)** that allows for one clone with recursive flag, so every sub-project is up to date or in the same version.
 
 <hr />
 
-These are the projects (more to come):
+These are the projects (more to come in the future, if somehow this grows):
 
 Name | Short description | Status
 --|--|--
 **[Core](../../../Core)** | This is the big combined project to make everything easier | N/A
-**[Brain](../../../Brain)** | The brain that integrates all modules and make things work. Includes display, SD card and so on | ▶️
+**[Brain](../../../Brain)** | The brain that integrates all modules and make things work. Includes display, SD card and so on | ✅
 **[Module_DHT22](../../../Module_DHT22)** | Temperature and Humidity sensor | ✅
 **[Module_MICS6814](../../../Module_MICS6814)** | CO, NH3 and NO2 sensor | ✅
 **[Module_KY038_HW072](../../../Module_KY038_HW072)** | Light and sound sensor | ✅
@@ -69,4 +68,4 @@ Name | Short description | Status
 **[Module_PMSDS011](../../../Module_PMSDS011)** | Particle meter sensor | ✅
 **[Module_BATTERY](../../../Module_BATTERY)** | Own battery reporting sensor | ❌
 
-###### ✅ = Released; ▶️ = In the works, planned; ❌ = Not ready, not being implemented right now
+###### ✅ = Released; ▶️ = In the works, planned; ❌ = Discarded.
