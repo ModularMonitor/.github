@@ -27,6 +27,7 @@ They are:
 * [Self Threadable](../../../lib-SelfThreadable)
 * [TCP connection (simple communication to make things work right now)](../../../tool-TCP_connection)
 * [XBM/RGB tool (because XBM converter does things flipped somehow)](../../../tool-RGB_fixer)
+* [Brain Serial Logger (extra backup of data captured by the device, Windows)](../../../BrainSerialLogger)
 ##### Adapted / enhanced / external:
 * [TFT library](../../../lib-TFT)
 * [TinyGSM (4G)](../../../lib-TinyGSM)
