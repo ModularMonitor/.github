@@ -28,6 +28,7 @@ They are:
 * [TCP connection (simple communication to make things work right now)](https://github.com/ModularMonitor/tool-TCP_connection)
 * [XBM/RGB tool (because XBM converter does things flipped somehow)](https://github.com/ModularMonitor/tool-RGB_fixer)
 * [Brain Serial Logger (extra backup of data captured by the device, Windows)](https://github.com/ModularMonitor/BrainSerialLogger)
+* [CSV plotter (works with Brain Serial Logger's CSVs, Windows)](https://github.com/ModularMonitor/CSV_plotter)
 ##### Adapted / enhanced / external:
 * [TFT library](https://github.com/ModularMonitor/lib-TFT)
 * [TinyGSM (4G)](https://github.com/ModularMonitor/lib-TinyGSM)
