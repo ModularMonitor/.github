@@ -8,7 +8,7 @@
 <br />
 
 Welcome to Modular Monitor Github repository!<br />
-We use Github as out main versioning for this project. It is for our "TCC" and will be maintained as long as needed.
+We use Github as our main versioning for this project. It is for our "TCC" and will be maintained as long as needed.
 
 The main language is C++ with Arduino IDE + VS Code as our main editor.<br />
 The code should work on ESP32 out of the box (libraries are all sub modules)
@@ -71,3 +71,4 @@ Name | Short description | Status
 **[Module_BATTERY](https://github.com/ModularMonitor/Module_BATTERY)** | Own battery reporting sensor | ❌
 
 ###### ✅ = Released; ▶️ = In the works, planned; ❌ = Discarded.
+
